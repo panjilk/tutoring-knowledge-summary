@@ -1,0 +1,9 @@
+[server]
+address = "127.0.0.1"
+maxUploadSize = 512
+# transformers 使用大量懒加载模块。关闭源码扫描可避免 Streamlit
+# 在文本项目中误触发 torchvision 等未使用的图像依赖。
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false

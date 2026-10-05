@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.venv/
+.agents/
+.codex/
+.aws/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+data/
+logs/
+.streamlit/secrets.toml
